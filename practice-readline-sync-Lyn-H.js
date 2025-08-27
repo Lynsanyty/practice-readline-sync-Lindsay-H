@@ -1,6 +1,6 @@
 const readline = require('readline-sync');
 let name = readline.question("Hello! What is your name? ");
-console.log("Welcome, " + name + "!");
+console.log("Welcome, " + name + ".");
 let questionOne = readline.question("Is string a primitive data type?");
 let questionTwo = readline.questionInt("How many possible values do Booleans have (hint: the answer is a number)?");
 let questionThree = readline.question("What is the data type of an object?");
